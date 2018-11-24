@@ -1,0 +1,48 @@
+
+Results printed in Console
+Minimum Latitude: 20.000000		Maximum Latitude: 25.000000		Step Size: 1.000000
+Minimum Longitude: 20.000000		Maximum Longitude: 25.000000		Step Size: 1.000000
+Minimum Altitude above MSL: 1.000000	Maximum Altitude above MSL: 5.000000	Step Size: 1.000000
+Starting Date: 2000.000000		Ending Date: 2015.000000		Step Time: 1.000000
+
+
+
+Results printed in Console
+Minimum Latitude: 20.000000		Maximum Latitude: 25.000000		Step Size: 1.000000
+Minimum Longitude: 20.000000		Maximum Longitude: 25.000000		Step Size: 1.000000
+Minimum Altitude above MSL: 1.000000	Maximum Altitude above MSL: 5.000000	Step Size: 1.000000
+Starting Date: 2010.000000		Ending Date: 2015.000000		Step Time: 1.000000
+
+
+
+Results printed in Console
+Minimum Latitude: 20.000000		Maximum Latitude: 25.000000		Step Size: 1.000000
+Minimum Longitude: 20.000000		Maximum Longitude: 25.000000		Step Size: 1.000000
+Minimum Altitude above MSL: 1.000000	Maximum Altitude above MSL: 5.000000	Step Size: 1.000000
+Starting Date: 2000.000000		Ending Date: 2015.000000		Step Time: 1.000000
+
+
+
+Results printed in Console
+Minimum Latitude: 20.000000		Maximum Latitude: 25.000000		Step Size: 1.000000
+Minimum Longitude: 20.000000		Maximum Longitude: 25.000000		Step Size: 1.000000
+Minimum Altitude above MSL: 1.000000	Maximum Altitude above MSL: 5.000000	Step Size: 1.000000
+Starting Date: 2000.000000		Ending Date: 2015.000000		Step Time: 1.000000
+
+
+
+Results printed in Console
+Minimum Latitude: 20.000000		Maximum Latitude: 25.000000		Step Size: 1.000000
+Minimum Longitude: 20.000000		Maximum Longitude: 25.000000		Step Size: 1.000000
+Minimum Altitude above MSL: 0.000000	Maximum Altitude above MSL: 0.000000	Step Size: 0.000000
+Starting Date: 2000.000000		Ending Date: 2015.000000		Step Time: 1.000000
+
+
+
+Results printed in Console
+Minimum Latitude: 20.000000		Maximum Latitude: 25.000000		Step Size: 1.000000
+Minimum Longitude: 20.000000		Maximum Longitude: 25.000000		Step Size: 1.000000
+Minimum Altitude above MSL: 1.000000	Maximum Altitude above MSL: 5.000000	Step Size: 1.000000
+Starting Date: 2000.000000		Ending Date: 2015.000000		Step Time: 1.000000
+
+
