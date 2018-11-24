@@ -2,7 +2,7 @@ import numpy as np
 from scipy import misc
 from scipy.optimize import minimize
 from PIL import Image
-from libtiff import TIFF
+# from libtiff import TIFF
 from matplotlib import *
 from PIL import Image
 
@@ -22,24 +22,60 @@ from geographiclib.geodesic import Geodesic
 from mpl_toolkits.basemap import Basemap
 from pint import UnitRegistry
 import yaml
+import os
+import glob
+import fnmatch
+
+cwd = os.getcwd()
+
+def _p(v,l,*args,**kw):
+    """print if v, prefix l centered dots"""
+    if v:
+        if l: print('\xB7'*l,end='') #B7 is centered dot
+        print(*args,**kw)
 
 
-def import_data('a')
-## Compute Stokes Parameters ##
+def import_data(dir_path, ext):
+    root = dir_path
+    file_dic = {}
+    for file in glob.glob(os.path.join(root, "*." + ext)):
+        file_path = os.path.join(root, file)
+        if fnmatch.fnmatch(file, "*180*"):
+            file_dic['180'] = Image.open(file_path)
+            print("Found 180")
+        elif fnmatch.fnmatch(file, "*45*"):
+            file_dic['45'] = Image.open(file_path)
+            print("Found 45")
+        elif fnmatch.fnmatch(file, "*90*"):
+            file_dic['90'] = Image.open(file_path)
+            print("Found 90")
+        elif fnmatch.fnmatch(file, "*135*"):
+            file_dic['135'] = Image.open(file_path)
+            print("Found 135")
+        else:
+            print("Do not us this file:" + file)
+
+    return file_dic
+
+
+
+
+
+
+    ## Compute Stokes Parameters ##
 # split stack into components so that we can use them in numexpr
-    i0= Image.open('C:/Users/Guangyuan/Desktop/pol2','average_180.tiff')
-    i45= Image.open('C:/Users/Guangyuan/Desktop/pol2/average_45.tiff')
-    i90= Image.open('C:/Users/Guangyuan/Desktop/pol2/average_90.tiff')
-    i135= Image.open('C:/Users/Guangyuan/Desktop/pol2/average_135.tiff')
+#     i0= Image.open('C:/Users/Guangyuan/Desktop/pol2','average_180.tiff')
+#     i45= Image.open('C:/Users/Guangyuan/Desktop/pol2/average_45.tiff')
+#     i90= Image.open('C:/Users/Guangyuan/Desktop/pol2/average_90.tiff')
+#     i135= Image.open('C:/Users/Guangyuan/Desktop/pol2/average_135.tiff')
 
     #    pre-allocate an array to hold stokes vectors
-    s = np.ndarray(i0.shape + (3,))
-    s[..., 0] = (i0+i90+i45+i135)/2
-    s[..., 1] = i0-i90
-    s[..., 2] = i45-i135
+    # s = np.ndarray(i0.shape + (3,))
+    # s[..., 0] = (i0+i90+i45+i135)/2
+    # s[..., 1] = i0-i90
+    # s[..., 2] = i45-i135
+    # print(s)
 
-
-def ()
 
 
 
@@ -75,5 +111,17 @@ def fit_sun_to_aop(aop,head,pitch,sun_head_guess=None,ridx=1.33,verbose=False,vl
 
 if __name__ == '__main__':
     print('Creating maps...')
+    b='C:\\Users\\Guangyuan\\Desktop\\pol2'
+    dic=import_data(b,'tiff')
+    i0 = np.asarray(dic["180"])
+    i45=np.asarray(dic["45"])
+    i90=np.asarray(dic["90"])
+    i90=np.asarray(dic["90"])
+
+
+    print(i0)
+
+
+
 
 
