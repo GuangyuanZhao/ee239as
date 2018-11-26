@@ -2,9 +2,10 @@ import numpy as np
 from scipy import misc
 from scipy.optimize import minimize
 from PIL import Image
+import pandas as pd
 from estimate_position import poincare
 # from libtiff import TIFF
-from matplotlib import *
+import matplotlib.pyplot as plt
 from PIL import Image
 from simulate import oceanstokes, oceanaop
 from polarization import *
@@ -59,10 +60,26 @@ def compute_stokes(i0, i45, i90, i135):
     #    pre-allocate an array to hold stokes vectors
     # s = np.ndarray(i0.shape + (3,))
     s = np.zeros((4,))
-    s[..., 0] = np.average((i0 + i90 + i45 + i135) / 2.0, axis=(0, 1))
-    s[..., 1] = np.average(i0 - i90, axis=(0, 1))
-    s[..., 2] = np.average(i45 - i135, axis=(0, 1))
-    s[..., 3] = 0
+    # for inten in i0,i90,i45,i135
+    #     for i in range (75,95)
+    #     C{i - 74} = find(abs(inten - i) <= 2)
+    #
+    #     for i=1:length(C)
+    #         bbb(i) = np.len(C{i})
+    #
+    #     index_shift = find(bbb == max(bbb))
+    #     int_median = index_shift + 74
+    #     average = mean(crop_new(C{index_shift}))
+    if ndim([i0,i45,i90,i135])==1:
+        s[..., 0] = np.average((i0 + i90 + i45 + i135) / 2.0)
+        s[..., 1] = np.average(i0 - i90)
+        s[..., 2] = np.average(i45 - i135)
+        s[..., 3] = 0
+    else:
+        s[..., 0] = np.average((i0 + i90 + i45 + i135) / 2.0, axis=(0, 1))
+        s[..., 1] = np.average(i0 - i90, axis=(0, 1))
+        s[..., 2] = np.average(i45 - i135, axis=(0, 1))
+        s[..., 3] = 0
     return s
     # For calculating errors in two forms.
 
@@ -110,7 +127,7 @@ def fit_sun_to_aop(aop, head, pitch, sun_head_guess=None, ridx=1.33, verbose=Fal
     minfun = lambda x, *args: sun_pos_error(x[0], x[1], *args)
     # Originally x0=(sun_head_guess,pi/4)
     # TODO: verify modification
-    fit = minimize(minfun, x0=np.asarray([sun_head_guess, pi / 4]), args=(aop, head, pitch, ridx),
+    fit = minimize(minfun, x0=np.asarray([sun_head_guess, pi/4]), args=(aop, head, pitch, ridx),
                    bounds=[(-2 * pi, 2 * pi), (.01, pi / 2)], options={'gtol': 1e-6})
     sun_hz = fit.x
     _p(v, 0, 'DONE', flush=True)
@@ -119,13 +136,27 @@ def fit_sun_to_aop(aop, head, pitch, sun_head_guess=None, ridx=1.33, verbose=Fal
 
 if __name__ == '__main__':
     print('preprocessing...')
-    b = 'C:\\Users\\Guangyuan\\Desktop\\pol2'
-    i0, i45, i90, i135 = import_data(b, 'tiff')
+    b=[]
+    # b = 'C:\\study\pol_GPS\\11_24\\13_10无太阳直射光\stored data'
+    if b==[]:
+        # f = open("C:\\study\\pol_GPS\\11_24\\13_10无太阳直射光\\stored data\\s.csv")
+        # data = pd.read_csv(f)
+        # print(data)
+        # i0, i45, i90, i135 =data[0,0],data[1,0],data[2,0],data[3,0]
+        # print (i0)
+        # i0, i45, i90, i135 =[76.764267476364640,82.655174880194550,90.274839347503700,80.310342403149830] #indirect
+        i0, i45, i90, i135 =[69.07496194999997,73.06496132000001,81.77103290000001,63.80920486] #weixi
+
+    else:
+        i0, i45, i90, i135 = import_data(b, 'tiff')
     s = compute_stokes(i0, i45, i90, i135)
     print('s=', s)
     # print(s/np.linalg.norm(s))
     (s0, p, a) = poincare(s)  # Caculating the intensity, degree of pol, angle of pol
-    sun_az, sun_zen, cam_head, cam_elev = math.radians(183), np.arccos(0.5924), math.radians(166), 0
+    # sun_az, sun_zen, cam_head, cam_elev = math.radians(183), np.arccos(0.5924), math.radians(166), 0
+    # sun_az, sun_zen, cam_head, cam_elev = math.radians(204.9), np.arccos(0.5182), math.radians(206), 0 # indirect illumination
+    sun_az, sun_zen, cam_head, cam_elev = math.radians(201.04), np.arccos(0.5362), math.radians(183), 0 # indirect illumination
+
     stokes_theoretical = oceanstokes(sun_az, sun_zen, cam_head, cam_elev)
     print('s_theoretical=', np.squeeze(stokes_theoretical))
     aop_theoretical = Stokes.aop(np.squeeze(stokes_theoretical), axis=0)
