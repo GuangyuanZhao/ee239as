@@ -143,6 +143,11 @@ def oceansim(sun_az,sun_zen,cam_head,cam_elev=0,m2=1.33,npart=1.08,mu=3.483, deb
     m = mm4.dot(b*mm3.dot(mm2.dot(mm1)))
     #stokes vector
     s = m.dot([1,0,0,0])
+    #Caculating with considering the
+    p=0
+    if p==1:
+        m_rot=Mueller.rotator(math.radians(10))
+        s = m_rot.dot(m.dot([1,0,0,0]))
     if debug:
         return s,m,(ki,xi),(kt,xt,xst),(kc,xc,xsc),(mm1,mm2,mm3,b,mm4)
     else:
@@ -155,7 +160,8 @@ def oceanstokes(sun_az,sun_zen,cam_head,cam_elev=0,m2=1.33,npart=1.08,mu=3.483):
     st_flat = st.reshape((-1,4))
     for i,x in enumerate(b):
         st_flat[i] = oceansim(*x)[0]
-    return st
+    # here I change st to st_flat. I don't know the influence.
+    return st_flat
 
 def oceanaop(sun_az,sun_zen,cam_head,cam_elev=0,m2=1.33,npart=1.08,mu=3.483):
     """Compute aop"""

@@ -282,7 +282,7 @@ def poincare(s):
     s1 = s[...,1]
     s2 = s[...,2]
     #hypot euclidean norm
-    p = hypot(s1,s2)/s0
+    p = hypot(s1,s2)/s0 #degree of polarization
     a = arctan2(s2,s1)*0.5
     return (s0, p, a)
 
@@ -1161,7 +1161,7 @@ def make_svs(video_list_file, roi_hw, gm):
     #svs = make_svs(video_list_file, [100, 100], gm)
     svs = []
     video_list = parse_video_list(video_list_file,'../../Data')
-    # I don't know the iteration procedure of this 'for' interation
+    # I don't know the itert procedure of this 'for' interation
     for site,dname,calfile,rc0,depth,gps_pos,bad_frames in video_list:
         roi = rc0 + roi_hw
         print('Loading {}'.format(dname),flush=True)

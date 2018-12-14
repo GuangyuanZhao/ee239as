@@ -641,9 +641,6 @@ def concat_trace_files(fnames,bad_frames_by_video):
         tfile.create_dataset('good',data=array(good_frames))
 
 
-
-
-
 if False:
     #make ###-stokes.h5 and ###-traces.h5 files
     files = [os.path.join(path,f) for f in os.listdir(path) if f.endswith('.h5')]

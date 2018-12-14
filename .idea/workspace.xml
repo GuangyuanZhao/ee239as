@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba037766-2797-4042-bbe7-976001790991" name="Default" comment="" />
+    <list default="true" id="ba037766-2797-4042-bbe7-976001790991" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/estimate_position.py" beforeDir="false" afterPath="$PROJECT_DIR$/estimate_position.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/process_new.py" beforeDir="false" afterPath="$PROJECT_DIR$/process_new.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sensitivity.py" beforeDir="false" afterPath="$PROJECT_DIR$/sensitivity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simulate.py" beforeDir="false" afterPath="$PROJECT_DIR$/simulate.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,131 +19,317 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="code" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="estimate_position.py" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simulate.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="167" column="13" selection-start-line="167" selection-start-column="13" selection-end-line="167" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/estimate_position.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3186">
-              <caret line="116" column="22" lean-forward="false" selection-start-line="116" selection-start-column="22" selection-end-line="116" selection-end-column="22" />
+            <state relative-caret-position="4400">
+              <caret line="1586" column="38" selection-start-line="1586" selection-start-column="38" selection-end-line="1586" selection-end-column="38" />
               <folding>
-                <element signature="e#1130#1149#0" expanded="true" />
-                <element signature="e#2993#3183#0" expanded="false" />
-                <element signature="e#3289#3592#0" expanded="false" />
-                <element signature="e#3649#3828#0" expanded="false" />
-                <element signature="e#3888#4096#0" expanded="false" />
-                <element signature="e#4146#4282#0" expanded="false" />
-                <element signature="e#4354#4711#0" expanded="false" />
-                <element signature="e#9227#9288#0" expanded="false" />
-                <element signature="e#10263#10568#0" expanded="false" />
-                <element signature="e#11109#11429#0" expanded="false" />
-                <element signature="e#11483#12034#0" expanded="false" />
-                <element signature="e#12495#12613#0" expanded="false" />
-                <element signature="e#14028#14874#0" expanded="false" />
-                <element signature="e#17320#17521#0" expanded="false" />
-                <element signature="e#17666#19140#0" expanded="false" />
-                <element signature="e#41336#42328#0" expanded="false" />
-                <element signature="e#42927#44932#0" expanded="false" />
-                <element signature="e#44973#47253#0" expanded="false" />
-                <element signature="e#47299#48147#0" expanded="false" />
-                <element signature="e#54923#56879#0" expanded="false" />
-                <element signature="e#56988#60266#0" expanded="false" />
-                <element signature="e#61841#62794#0" expanded="false" />
-                <element signature="e#62839#63659#0" expanded="false" />
-                <element signature="e#63686#68925#0" expanded="false" />
+                <element signature="n#!!doc" />
+                <element signature="e#1268#1277#0" />
+                <element signature="e#1338#1377#0" />
+                <element signature="e#2441#2574#0" />
+                <element signature="e#2500#2574#0" />
+                <element signature="e#2604#6942#0" />
+                <element signature="e#2746#2867#0" />
+                <element signature="e#2993#3183#0" />
+                <element signature="e#2993#3118#1" />
+                <element signature="e#3289#3592#0" />
+                <element signature="e#3649#3828#0" />
+                <element signature="e#3888#4096#0" />
+                <element signature="e#3888#4013#1" />
+                <element signature="e#4146#4282#0" />
+                <element signature="e#4354#4711#0" />
+                <element signature="e#4354#4563#1" />
+                <element signature="e#4763#5307#0" />
+                <element signature="e#4763#4933#1" />
+                <element signature="e#5359#5848#0" />
+                <element signature="e#5359#5493#1" />
+                <element signature="e#5892#5967#0" />
+                <element signature="e#6011#6082#0" />
+                <element signature="e#6133#6942#0" />
+                <element signature="e#6133#6507#1" />
+                <element signature="e#6516#6581#0" />
+                <element signature="e#6968#9180#0" />
+                <element signature="e#7053#7969#0" />
+                <element signature="e#7053#7448#1" />
+                <element signature="e#8005#8086#0" />
+                <element signature="e#8119#8204#0" />
+                <element signature="e#8236#8329#0" />
+                <element signature="e#8362#8400#0" />
+                <element signature="e#8431#8469#0" />
+                <element signature="e#8502#8575#0" />
+                <element signature="e#8611#8649#0" />
+                <element signature="e#8686#9180#0" />
+                <element signature="e#9227#9288#0" />
+                <element signature="e#9351#9553#0" />
+                <element signature="e#9494#9539#0" />
+                <element signature="e#9555#9589#0" />
+                <element signature="e#9819#9926#0" />
+                <element signature="e#9928#9994#0" />
+                <element signature="e#10166#10198#0" />
+                <element signature="e#10263#10592#0" />
+                <element signature="e#10622#11071#0" />
+                <element signature="e#10693#10758#0" />
+                <element signature="e#11133#11453#0" />
+                <element signature="e#11227#11305#0" />
+                <element signature="e#11507#12057#0" />
+                <element signature="e#11683#11755#0" />
+                <element signature="e#11774#12057#0" />
+                <element signature="e#11931#12038#0" />
+                <element signature="e#12100#12403#0" />
+                <element signature="e#12140#12403#0" />
+                <element signature="e#12519#12637#0" />
+                <element signature="e#12713#12833#0" />
+                <element signature="e#12835#12851#0" />
+                <element signature="e#12981#13268#0" />
+                <element signature="e#13128#13210#0" />
+                <element signature="e#13741#13933#0" />
+                <element signature="e#14052#14898#0" />
+                <element signature="e#14052#14413#1" />
+                <element signature="e#14418#14481#0" />
+                <element signature="e#14696#14737#0" />
+                <element signature="e#14969#15283#0" />
+                <element signature="e#14969#15043#0" />
+                <element signature="e#15374#16378#0" />
+                <element signature="e#15374#15669#1" />
+                <element signature="e#15760#15937#0" />
+                <element signature="e#16098#16134#0" />
+                <element signature="e#16456#17317#0" />
+                <element signature="e#17344#17545#0" />
+                <element signature="e#17573#17627#0" />
+                <element signature="e#17690#19164#0" />
+                <element signature="e#17690#18038#1" />
+                <element signature="e#18178#18203#0" />
+                <element signature="e#18626#18698#0" />
+                <element signature="e#18793#19020#0" />
+                <element signature="e#19039#19088#0" />
+                <element signature="e#19201#19439#0" />
+                <element signature="e#19265#19377#0" />
+                <element signature="e#19396#19439#0" />
+                <element signature="e#19469#22156#0" />
+                <element signature="e#19521#20088#0" />
+                <element signature="e#20125#20188#0" />
+                <element signature="e#20228#20428#0" />
+                <element signature="e#20260#20428#0" />
+                <element signature="e#20497#21168#0" />
+                <element signature="e#21205#21805#0" />
+                <element signature="e#21433#21575#0" />
+                <element signature="e#21602#21691#0" />
+                <element signature="e#21844#22007#0" />
+                <element signature="e#22049#22126#0" />
+                <element signature="e#22179#41295#0" />
+                <element signature="e#22254#24636#0" />
+                <element signature="e#24701#24826#0" />
+                <element signature="e#24876#25674#0" />
+                <element signature="e#25716#26629#0" />
+                <element signature="e#25748#26629#0" />
+                <element signature="e#25748#25783#0" />
+                <element signature="e#26702#28518#0" />
+                <element signature="e#26702#26758#0" />
+                <element signature="e#27249#27428#0" />
+                <element signature="e#27518#27590#0" />
+                <element signature="e#27624#27796#0" />
+                <element signature="e#27859#28135#0" />
+                <element signature="e#28583#34038#0" />
+                <element signature="e#29165#29278#0" />
+                <element signature="e#29210#29278#0" />
+                <element signature="e#29512#33710#0" />
+                <element signature="e#31696#33665#0" />
+                <element signature="e#31824#33585#0" />
+                <element signature="e#32144#32476#0" />
+                <element signature="e#32940#33443#0" />
+                <element signature="e#32989#33070#0" />
+                <element signature="e#34104#35359#0" />
+                <element signature="e#34461#34633#0" />
+                <element signature="e#34739#34904#0" />
+                <element signature="e#34967#35117#0" />
+                <element signature="e#35417#36737#0" />
+                <element signature="e#36243#36409#0" />
+                <element signature="e#36807#37916#0" />
+                <element signature="e#37155#37329#0" />
+                <element signature="e#37430#37597#0" />
+                <element signature="e#37654#37770#0" />
+                <element signature="e#37978#39301#0" />
+                <element signature="e#38801#38979#0" />
+                <element signature="e#39390#39773#0" />
+                <element signature="e#39850#40752#0" />
+                <element signature="e#40213#40402#0" />
+                <element signature="e#40833#41295#0" />
+                <element signature="e#41360#42352#0" />
+                <element signature="e#41360#41430#0" />
+                <element signature="e#41637#42130#0" />
+                <element signature="e#42397#42913#0" />
+                <element signature="e#42499#42595#0" />
+                <element signature="e#42684#42887#0" />
+                <element signature="e#42742#42887#0" />
+                <element signature="e#42951#44956#0" />
+                <element signature="e#43140#43189#0" />
+                <element signature="e#44078#44279#0" />
+                <element signature="e#44125#44279#0" />
+                <element signature="e#44320#44360#0" />
+                <element signature="e#44850#44927#0" />
+                <element signature="e#44997#47277#0" />
+                <element signature="e#45639#45655#0" />
+                <element signature="e#46901#47031#0" />
+                <element signature="e#47175#47262#0" />
+                <element signature="e#47323#48171#0" />
+                <element signature="e#47954#48037#0" />
+                <element signature="e#48072#48156#0" />
+                <element signature="e#48203#49060#0" />
+                <element signature="e#48212#48365#0" />
+                <element signature="e#48405#49060#0" />
+                <element signature="e#48489#49060#0" />
+                <element signature="e#48887#49032#0" />
+                <element signature="e#48903#49032#0" />
+                <element signature="e#49109#49546#0" />
+                <element signature="e#49378#49531#0" />
+                <element signature="e#49602#50087#0" />
+                <element signature="e#49701#49803#0" />
+                <element signature="e#50158#53130#0" />
+                <element signature="e#50578#52716#0" />
+                <element signature="e#50701#52716#0" />
+                <element signature="e#52879#53086#0" />
+                <element signature="e#53212#53675#0" />
+                <element signature="e#53323#53660#0" />
+                <element signature="e#53350#53660#0" />
+                <element signature="e#53389#53660#0" />
+                <element signature="e#53757#54799#0" />
+                <element signature="e#54046#54784#0" />
+                <element signature="e#54102#54784#0" />
+                <element signature="e#54943#56899#0" />
+                <element signature="e#55230#56872#0" />
+                <element signature="e#55476#55929#0" />
+                <element signature="e#55577#55684#0" />
+                <element signature="e#56015#56128#0" />
+                <element signature="e#56048#56128#0" />
+                <element signature="e#56224#56872#0" />
+                <element signature="e#57008#60286#0" />
+                <element signature="e#57296#60257#0" />
+                <element signature="e#57535#57820#0" />
+                <element signature="e#57637#57754#0" />
+                <element signature="e#58079#58399#0" />
+                <element signature="e#58490#58606#0" />
+                <element signature="e#58524#58606#0" />
+                <element signature="e#58615#58650#0" />
+                <element signature="e#58960#59168#0" />
+                <element signature="e#59265#60257#0" />
+                <element signature="e#59503#59629#0" />
+                <element signature="e#60338#61816#0" />
+                <element signature="e#60338#60387#0" />
+                <element signature="e#60561#60689#0" />
+                <element signature="e#60870#61816#0" />
+                <element signature="e#61368#61816#0" />
+                <element signature="e#61861#62814#0" />
+                <element signature="e#61919#62236#0" />
+                <element signature="e#62859#63679#0" />
+                <element signature="e#62922#63581#0" />
+                <element signature="e#63826#63949#0" />
+                <element signature="e#63968#64050#0" />
+                <element signature="e#64093#64142#0" />
+                <element signature="e#64223#64539#0" />
+                <element signature="e#64355#64539#0" />
+                <element signature="e#64652#64824#0" />
+                <element signature="e#65240#67950#0" />
+                <element signature="e#68114#68268#0" />
+                <element signature="e#68309#68349#0" />
+                <element signature="e#68839#68916#0" />
+                <element signature="e#68995#70182#0" />
+                <element signature="e#69008#69985#0" />
+                <element signature="e#69365#69427#0" />
+                <element signature="e#69815#69878#0" />
+                <element signature="e#70094#70159#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="process_new.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/packages/geomag/process_new.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="566">
-              <caret line="115" column="31" lean-forward="true" selection-start-line="115" selection-start-column="31" selection-end-line="115" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-                <element signature="e#804#937#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/packages/geomag/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="make_cal.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/make_cal.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="86" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="polarization.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/polarization.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7198">
-              <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="polprocess.py" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/polprocess.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-472">
-              <caret line="122" column="15" lean-forward="false" selection-start-line="122" selection-start-column="15" selection-end-line="122" selection-end-column="15" />
+            <state>
+              <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
               <folding>
-                <element signature="n#!!doc" expanded="false" />
-                <element signature="e#1166#1185#0" expanded="true" />
-                <element signature="e#1488#1553#0" expanded="false" />
-                <element signature="e#3010#3148#0" expanded="false" />
-                <element signature="e#3010#3046#0" expanded="false" />
-                <element signature="e#3248#3503#0" expanded="false" />
-                <element signature="e#3248#3324#0" expanded="false" />
-                <element signature="e#3374#3503#0" expanded="false" />
-                <element signature="e#3509#3536#0" expanded="false" />
-                <element signature="e#3942#4456#0" expanded="false" />
-                <element signature="e#4074#4160#0" expanded="false" />
-                <element signature="e#4208#4328#0" expanded="false" />
-                <element signature="e#5842#6201#0" expanded="false" />
-                <element signature="e#5882#6201#0" expanded="false" />
-                <element signature="e#6236#6632#0" expanded="false" />
-                <element signature="e#6276#6632#0" expanded="false" />
-                <element signature="e#6666#6875#0" expanded="false" />
-                <element signature="e#6902#7291#0" expanded="false" />
-                <element signature="e#7008#7258#0" expanded="false" />
-                <element signature="e#7373#8539#0" expanded="false" />
-                <element signature="e#7544#8343#0" expanded="false" />
-                <element signature="e#8081#8343#0" expanded="false" />
-                <element signature="e#8385#8492#0" expanded="false" />
-                <element signature="e#9737#9801#0" expanded="false" />
+                <element signature="n#!!doc" />
+                <element signature="e#1488#1553#0" />
+                <element signature="e#3010#3148#0" />
+                <element signature="e#3010#3046#0" />
+                <element signature="e#3248#3503#0" />
+                <element signature="e#3248#3324#0" />
+                <element signature="e#3374#3503#0" />
+                <element signature="e#3509#3536#0" />
+                <element signature="e#3942#4456#0" />
+                <element signature="e#4074#4160#0" />
+                <element signature="e#4208#4328#0" />
+                <element signature="e#5842#6201#0" />
+                <element signature="e#5882#6201#0" />
+                <element signature="e#6236#6632#0" />
+                <element signature="e#6276#6632#0" />
+                <element signature="e#6666#6875#0" />
+                <element signature="e#6902#7291#0" />
+                <element signature="e#7008#7258#0" />
+                <element signature="e#7373#8539#0" />
+                <element signature="e#7544#8343#0" />
+                <element signature="e#8081#8343#0" />
+                <element signature="e#8385#8492#0" />
+                <element signature="e#9737#9801#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../README.md">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/process_new.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="456">
+              <caret line="164" column="14" selection-start-line="164" selection-start-column="14" selection-end-line="164" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/packages/sunpos/__main__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="625">
+              <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/packages/sunpos/csunpos.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="457">
+              <caret line="62" column="108" selection-start-line="62" selection-start-column="108" selection-end-line="62" selection-end-column="108" />
+              <folding>
+                <element signature="e#554#1170#1" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/polarization.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="264" column="36" lean-forward="true" selection-start-line="264" selection-start-column="36" selection-end-line="264" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -152,19 +345,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>main</find>
-      <find>stokes</find>
-      <find>bool_</find>
-      <find>sys</find>
-      <find>great_circle</find>
-      <find>geoline</find>
-      <find>residuals_name</find>
-      <find>broadcast</find>
-      <find>sun_head</find>
-      <find>az_zen_dis</find>
-      <find>fit_sun_head_to_aop</find>
-      <find>fit_gps_to_sun</find>
-      <find>correct_imu</find>
       <find>file_replace</find>
       <find>KernelRegression</find>
       <find>estimate_loo_kr</find>
@@ -181,8 +361,27 @@
       <find>svs</find>
       <find>merge</find>
       <find>ne</find>
+      <find>minim</find>
+      <find>phase</find>
+      <find>degree of</find>
+      <find>zenith</find>
+      <find>estimate</find>
       <find>fit</find>
+      <find>imu</find>
+      <find>Stokes</find>
+      <find>take</find>
+      <find>compass</find>
+      <find>rotate</find>
+      <find>aop</find>
+      <find>rota</find>
+      <find>angle</find>
     </findStrings>
+    <dirStrings>
+      <dir>C:\study\pol_GPS\sbpowell-underwater-pol-nav-f0ed4b272e37\code</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -193,93 +392,38 @@
         <option value="$PROJECT_DIR$/packages/sunpos/__main__.py" />
         <option value="$PROJECT_DIR$/make_cal.py" />
         <option value="$PROJECT_DIR$/polprocess.py" />
-        <option value="$PROJECT_DIR$/simulate.py" />
-        <option value="$PROJECT_DIR$/estimate_position.py" />
         <option value="$PROJECT_DIR$/packages/geomag/test.py" />
         <option value="$PROJECT_DIR$/packages/geomag/import_data.py" />
         <option value="$PROJECT_DIR$/packages/geomag/process_new.py" />
+        <option value="$PROJECT_DIR$/estimate_position.py" />
+        <option value="$PROJECT_DIR$/sensitivity.py" />
+        <option value="$PROJECT_DIR$/simulate.py" />
+        <option value="$PROJECT_DIR$/process_new.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-16" />
-    <option name="y" value="-16" />
-    <option name="width" value="3232" />
-    <option name="height" value="1732" />
+    <option name="x" value="20" />
+    <option name="width" value="3200" />
+    <option name="height" value="1715" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="packages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="packages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geomag" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/Programs/Python/Python36/python.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myIpythonEnabled" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\study\pol_GPS\sbpowell-underwater-pol-nav-f0ed4b272e37\code" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\study\pol_GPS\sbpowell-underwater-pol-nav-f0ed4b272e37\code\packages\sunpos" />
       <recent name="C:\study\pol_GPS\sbpowell-underwater-pol-nav-f0ed4b272e37\code" />
@@ -297,121 +441,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.process_new">
-    <configuration default="false" name="estimate_position" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="code" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/estimate_position.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <method />
-    </configuration>
-    <configuration default="false" name="polprocess" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="code" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/polprocess.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <method />
-    </configuration>
-    <configuration default="false" name="import_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/packages/geomag" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="code" />
-      <option name="SCRIPT_NAME" value="C:\study\pol_GPS\sbpowell-underwater-pol-nav-f0ed4b272e37\code\packages\geomag\process_new.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/packages/geomag" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="code" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/packages/geomag/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="process_new" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/packages/geomag" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="code" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/packages/geomag/process_new.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="code" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.process_new (1)">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -431,111 +461,170 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
+    <configuration name="__main__" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/packages/sunpos" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/packages/sunpos/__main__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="code" />
+      <module name="" />
       <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Nosetests">
+    <configuration name="estimate_position" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="code" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/estimate_position.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
+    <configuration name="import_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/packages/geomag" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="code" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
+      <option name="SCRIPT_NAME" value="C:\study\pol_GPS\sbpowell-underwater-pol-nav-f0ed4b272e37\code\process_new.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration default="true" type="tests" factoryName="py.test">
+    <configuration name="process_new (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="code" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="" />
-      <option name="keywords" value="" />
-      <option name="params" value="" />
-      <option name="USE_PARAM" value="false" />
-      <option name="USE_KEYWORD" value="false" />
-      <method />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/process_new.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.estimate_position" />
-      <item index="1" class="java.lang.String" itemvalue="Python.polprocess" />
-      <item index="2" class="java.lang.String" itemvalue="Python.import_data" />
-      <item index="3" class="java.lang.String" itemvalue="Python.test" />
-      <item index="4" class="java.lang.String" itemvalue="Python.process_new" />
+    <configuration name="process_new" type="PythonConfigurationType" factoryName="Python">
+      <module name="code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/packages/geomag" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\study\pol_GPS\sbpowell-underwater-pol-nav-f0ed4b272e37\code\process_new.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/packages/geomag" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/packages/geomag/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.process_new" />
+      <item itemvalue="Python.estimate_position" />
+      <item itemvalue="Python.import_data" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.__main__" />
+      <item itemvalue="Python.process_new (1)" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.process_new" />
-        <item index="1" class="java.lang.String" itemvalue="Python.import_data" />
-        <item index="2" class="java.lang.String" itemvalue="Python.test" />
-        <item index="3" class="java.lang.String" itemvalue="Python.estimate_position" />
-        <item index="4" class="java.lang.String" itemvalue="Python.polprocess" />
+      <list>
+        <item itemvalue="Python.process_new (1)" />
+        <item itemvalue="Python.__main__" />
+        <item itemvalue="Python.import_data" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.estimate_position" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -548,6 +637,21 @@
       <option name="presentableId" value="Default" />
       <updated>1542082323918</updated>
     </task>
+    <task id="LOCAL-00001" summary="Some Update in the raw data process procedure. 2018-11-25">
+      <created>1543138065879</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1543138065879</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Some Update in the raw data process procedure. 2018-11-25">
+      <created>1543252152803</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1543252152804</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -560,64 +664,72 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-16" y="-16" width="3232" height="1732" extended-state="6" />
+    <frame x="8" y="0" width="1280" height="686" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23572335" sideWeight="0.49758455" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988268" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988268" sideWeight="0.5038071" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988268" sideWeight="0.49873096" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32988268" sideWeight="0.49873096" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988268" sideWeight="0.4961929" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23572335" sideWeight="0.5024155" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3988958" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299933" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49758455" weight="0.14535345" />
+      <window_info id="Structure" order="1" weight="0.6328811" />
+      <window_info id="Favorites" order="2" sideWeight="0.5024155" side_tool="true" weight="0.23572335" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3299933" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4952153" weight="0.23679417" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49760765" weight="0.28596804" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3291367" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5047847" side_tool="true" weight="0.3327338" />
+      <window_info anchor="bottom" id="Python Console" order="8" sideWeight="0.49873096" weight="0.3291367" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4961929" weight="0.3268206" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3291367" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="3" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49758455" visible="true" weight="0.14535345" />
+      <window_info id="Structure" order="1" weight="0.6328811" />
+      <window_info id="Favorites" order="2" sideWeight="0.5024155" side_tool="true" weight="0.23572335" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3299933" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4952153" visible="true" weight="0.23090586" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49760765" weight="0.28597122" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3291367" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5047847" side_tool="true" weight="0.3327338" />
+      <window_info anchor="bottom" id="Python Console" order="8" sideWeight="0.49873096" weight="0.3291367" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4961929" weight="0.3268206" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3291367" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="3" />
+    </layout-to-restore>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Some Update in the raw data process procedure. 2018-11-25" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some Update in the raw data process procedure. 2018-11-25" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="21" />
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sunpos/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/sunpos/test_pyx.py" />
-    <entry file="file://$PROJECT_DIR$/sunpos/__main__.py" />
-    <entry file="file://$PROJECT_DIR$/sunpos/setup.py" />
-    <entry file="file://$PROJECT_DIR$/sunpos/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/sunpos/test_pyx.py" />
-    <entry file="file://$PROJECT_DIR$/sunpos/__main__.py" />
-    <entry file="file://$PROJECT_DIR$/sunpos/setup.py" />
-    <entry file="file://$PROJECT_DIR$/sunpos/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/sunpos/test_pyx.py" />
     <entry file="file://C:/Program Files/Python36/Lib/site-packages/h5py/_hl/group.py" />
     <entry file="file://$PROJECT_DIR$/_init_.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/sunpos/test_pyx.py" />
     <entry file="file://$PROJECT_DIR$/csunpos.pyx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/sunpos/csunpos.pyx" />
     <entry file="file://$PROJECT_DIR$/sunpos/__main__.py" />
@@ -626,72 +738,43 @@
     <entry file="file://$PROJECT_DIR$/sunpos/csunpos.c" />
     <entry file="file://$PROJECT_DIR$/packages/sunpos/test_pyx.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="19" lean-forward="true" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+        <state>
+          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/h5py/_hl/files.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="25" lean-forward="true" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plot_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24072">
-          <caret line="413" column="10" lean-forward="false" selection-start-line="413" selection-start-column="10" selection-end-line="413" selection-end-column="10" />
+        <state>
+          <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/error_stats.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6785">
-          <caret line="123" column="4" lean-forward="false" selection-start-line="123" selection-start-column="4" selection-end-line="123" selection-end-column="4" />
+          <caret line="123" column="4" selection-start-line="123" selection-start-column="4" selection-end-line="123" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/h5py/_hl/group.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4023">
-          <caret line="176" column="0" lean-forward="false" selection-start-line="176" selection-start-column="0" selection-end-line="176" selection-end-column="0" />
+          <caret line="176" selection-start-line="176" selection-end-line="176" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/crop_cal.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="955">
-          <caret line="36" column="20" lean-forward="false" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kent_distribution.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="413">
-          <caret line="34" column="14" lean-forward="false" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/sunpos/__main__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sensitivity.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="24" column="15" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="15" />
+          <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -699,7 +782,7 @@
     <entry file="file://$USER_HOME$/.PyCharmCE2016.3/system/python_stubs/-167786372/scipy/spatial/ckdtree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="232" column="8" lean-forward="false" selection-start-line="232" selection-start-column="8" selection-end-line="232" selection-end-column="8" />
+          <caret line="232" column="8" selection-start-line="232" selection-start-column="8" selection-end-line="232" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -714,24 +797,16 @@
     <entry file="file://$PROJECT_DIR$/model_aop_figure.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-472">
-          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2016.3/system/python_stubs/-167786372/numpy/core/multiarray.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1211">
-          <caret line="2627" column="8" lean-forward="false" selection-start-line="2627" selection-start-column="8" selection-end-line="2627" selection-end-column="8" />
-          <folding />
+          <caret line="10" column="23" selection-start-line="10" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/numpy/lib/function_base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="644">
-          <caret line="908" column="46" lean-forward="false" selection-start-line="908" selection-start-column="46" selection-end-line="908" selection-end-column="46" />
+          <caret line="908" column="46" selection-start-line="908" selection-start-column="46" selection-end-line="908" selection-end-column="46" />
           <folding>
-            <element signature="e#35660#38421#0" expanded="false" />
+            <element signature="e#35660#38421#0" />
           </folding>
         </state>
       </provider>
@@ -739,7 +814,7 @@
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/numexpr/necompiler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1304">
-          <caret line="773" column="14" lean-forward="false" selection-start-line="773" selection-start-column="14" selection-end-line="773" selection-end-column="14" />
+          <caret line="773" column="14" selection-start-line="773" selection-start-column="14" selection-end-line="773" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -747,7 +822,7 @@
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/geographiclib/geodesic.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1540">
-          <caret line="1018" column="33" lean-forward="false" selection-start-line="1018" selection-start-column="25" selection-end-line="1018" selection-end-column="33" />
+          <caret line="1018" column="33" selection-start-line="1018" selection-start-column="25" selection-end-line="1018" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -755,7 +830,7 @@
     <entry file="file://$USER_HOME$/.PyCharmCE2016.3/system/python_stubs/-167786372/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="466">
-          <caret line="3581" column="8" lean-forward="false" selection-start-line="3581" selection-start-column="8" selection-end-line="3581" selection-end-column="8" />
+          <caret line="3581" column="8" selection-start-line="3581" selection-start-column="8" selection-end-line="3581" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -763,7 +838,7 @@
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/numpy/core/numeric.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5776">
-          <caret line="1926" column="4" lean-forward="false" selection-start-line="1926" selection-start-column="4" selection-end-line="1926" selection-end-column="4" />
+          <caret line="1926" column="4" selection-start-line="1926" selection-start-column="4" selection-end-line="1926" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -771,7 +846,7 @@
     <entry file="file://$PROJECT_DIR$/packages/geomag/emm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1357">
-          <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
           <folding>
             <element signature="n#!!doc" expanded="false" />
             <element signature="e#420#434#0" expanded="false" />
@@ -807,40 +882,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stats_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-118">
-          <caret line="168" column="28" lean-forward="false" selection-start-line="168" selection-start-column="28" selection-end-line="168" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/scipy/optimize/_minimize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1593">
-          <caret line="42" column="4" lean-forward="false" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simulate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-          <folding>
-            <element signature="e#1130#1149#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/geomag/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/libtiff/libtiff_ctypes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -852,101 +893,501 @@
     <entry file="file://$USER_HOME$/.PyCharmCE2016.3/system/python_stubs/-167786372/numpy/core/umath.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21948">
-          <caret line="492" column="4" lean-forward="false" selection-start-line="492" selection-start-column="4" selection-end-line="492" selection-end-column="4" />
+          <caret line="492" column="4" selection-start-line="492" selection-start-column="4" selection-end-line="492" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/geomag/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="7" column="20" selection-start-line="7" selection-end-line="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/make_cal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="86" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+        <state relative-caret-position="-1770">
+          <caret line="122" column="28" selection-start-line="122" selection-start-column="28" selection-end-line="122" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/sunpos/csunpos.pyx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30975">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/polprocess.py">
+    <entry file="file://$USER_HOME$/.PyCharmCE2016.3/system/python_stubs/-167786372/numpy/core/multiarray.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-472">
-          <caret line="122" column="15" lean-forward="false" selection-start-line="122" selection-start-column="15" selection-end-line="122" selection-end-column="15" />
+        <state relative-caret-position="-4650">
+          <caret line="2600" column="8" selection-start-line="2600" selection-start-column="8" selection-end-line="2600" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stats_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="143" column="35" selection-start-line="143" selection-start-column="35" selection-end-line="143" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/_weakrefset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/numpy/core/fromnumeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="933">
+          <caret line="1686" lean-forward="true" selection-start-line="1686" selection-end-line="1686" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sensitivity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="642" lean-forward="true" selection-start-line="642" selection-end-line="642" />
           <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#1166#1185#0" expanded="true" />
-            <element signature="e#1488#1553#0" expanded="false" />
-            <element signature="e#3010#3148#0" expanded="false" />
-            <element signature="e#3010#3046#0" expanded="false" />
-            <element signature="e#3248#3503#0" expanded="false" />
-            <element signature="e#3248#3324#0" expanded="false" />
-            <element signature="e#3374#3503#0" expanded="false" />
-            <element signature="e#3509#3536#0" expanded="false" />
-            <element signature="e#3942#4456#0" expanded="false" />
-            <element signature="e#4074#4160#0" expanded="false" />
-            <element signature="e#4208#4328#0" expanded="false" />
-            <element signature="e#5842#6201#0" expanded="false" />
-            <element signature="e#5882#6201#0" expanded="false" />
-            <element signature="e#6236#6632#0" expanded="false" />
-            <element signature="e#6276#6632#0" expanded="false" />
-            <element signature="e#6666#6875#0" expanded="false" />
-            <element signature="e#6902#7291#0" expanded="false" />
-            <element signature="e#7008#7258#0" expanded="false" />
-            <element signature="e#7373#8539#0" expanded="false" />
-            <element signature="e#7544#8343#0" expanded="false" />
-            <element signature="e#8081#8343#0" expanded="false" />
-            <element signature="e#8385#8492#0" expanded="false" />
-            <element signature="e#9737#9801#0" expanded="false" />
+            <element signature="n#!!doc" />
+            <element signature="e#1130#1149#0" expanded="true" />
+            <element signature="e#1450#1472#0" />
+            <element signature="e#1984#2162#0" />
+            <element signature="e#1984#2097#1" />
+            <element signature="e#2266#3116#0" />
+            <element signature="e#2490#3037#0" />
+            <element signature="e#2860#2952#0" />
+            <element signature="e#3172#3962#0" />
+            <element signature="e#3357#3947#0" />
+            <element signature="e#3626#3695#0" />
+            <element signature="e#4027#4952#0" />
+            <element signature="e#4027#4046#0" />
+            <element signature="e#4188#4811#0" />
+            <element signature="e#4562#4811#0" />
+            <element signature="e#5008#5691#0" />
+            <element signature="e#5099#5669#0" />
+            <element signature="e#5127#5669#0" />
+            <element signature="e#5127#5192#0" />
+            <element signature="e#5303#5440#0" />
+            <element signature="e#5738#6608#0" />
+            <element signature="e#5793#6408#0" />
+            <element signature="e#5866#6074#0" />
+            <element signature="e#5866#5944#0" />
+            <element signature="e#6101#6408#0" />
+            <element signature="e#6101#6166#0" />
+            <element signature="e#6696#8795#0" />
+            <element signature="e#6772#6836#0" />
+            <element signature="e#7071#7285#0" />
+            <element signature="e#7290#7329#0" />
+            <element signature="e#7403#7457#0" />
+            <element signature="e#7731#8000#0" />
+            <element signature="e#8074#8795#0" />
+            <element signature="e#8942#9754#0" />
+            <element signature="e#8942#8984#0" />
+            <element signature="e#9492#9695#0" />
+            <element signature="e#9957#10735#0" />
+            <element signature="e#10002#10608#0" />
+            <element signature="e#11983#12040#0" />
+            <element signature="e#12458#12649#0" />
+            <element signature="e#12769#17407#0" />
+            <element signature="e#13303#13351#0" />
+            <element signature="e#14110#14167#0" />
+            <element signature="e#14529#14572#0" />
+            <element signature="e#15177#15243#0" />
+            <element signature="e#15961#16069#0" />
+            <element signature="e#16236#16300#0" />
+            <element signature="e#16829#17359#0" />
+            <element signature="e#17481#17723#0" />
+            <element signature="e#17768#18218#0" />
+            <element signature="e#17768#18019#1" />
+            <element signature="e#18274#19058#0" />
+            <element signature="e#18274#18629#1" />
+            <element signature="e#18634#18661#0" />
+            <element signature="e#19132#19549#0" />
+            <element signature="e#19132#19161#0" />
+            <element signature="e#19597#20709#0" />
+            <element signature="e#19831#19867#0" />
+            <element signature="e#20215#20469#0" />
+            <element signature="e#20474#20491#0" />
+            <element signature="e#20779#21682#0" />
+            <element signature="e#20779#20933#1" />
+            <element signature="e#21081#21655#0" />
+            <element signature="e#21417#21471#0" />
+            <element signature="e#21748#22899#0" />
+            <element signature="e#22002#22038#0" />
+            <element signature="e#22386#22659#0" />
+            <element signature="e#22664#22681#0" />
+            <element signature="e#22901#22917#0" />
+            <element signature="e#25525#26125#0" />
+            <element signature="e#26145#26980#0" />
+            <element signature="e#26322#26666#0" />
+            <element signature="e#26529#26582#0" />
+            <element signature="e#26703#26980#0" />
+            <element signature="e#26857#26910#0" />
+            <element signature="e#26996#27926#0" />
+            <element signature="e#26996#27084#0" />
+            <element signature="e#27543#27880#0" />
+            <element signature="e#27942#28470#0" />
+            <element signature="e#28968#35640#0" />
+            <element signature="e#29085#29244#0" />
+            <element signature="e#30902#30959#0" />
+            <element signature="e#31038#31186#0" />
+            <element signature="e#32005#32083#0" />
+            <element signature="e#32142#32334#0" />
+            <element signature="e#32574#32599#0" />
+            <element signature="e#32883#33031#0" />
+            <element signature="e#33155#33176#0" />
+            <element signature="e#33966#34029#0" />
+            <element signature="e#34507#34611#0" />
+            <element signature="e#34776#35192#0" />
+            <element signature="e#34967#35073#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plot_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-167786372/math.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="59" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-167786372/numpy/core/multiarray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1924">
+          <caret line="891" column="4" selection-start-line="891" selection-start-column="4" selection-end-line="891" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/estimate_position.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3186">
-          <caret line="116" column="22" lean-forward="false" selection-start-line="116" selection-start-column="22" selection-end-line="116" selection-end-column="22" />
+        <state relative-caret-position="4400">
+          <caret line="1586" column="38" selection-start-line="1586" selection-start-column="38" selection-end-line="1586" selection-end-column="38" />
           <folding>
-            <element signature="e#1130#1149#0" expanded="true" />
-            <element signature="e#2993#3183#0" expanded="false" />
-            <element signature="e#3289#3592#0" expanded="false" />
-            <element signature="e#3649#3828#0" expanded="false" />
-            <element signature="e#3888#4096#0" expanded="false" />
-            <element signature="e#4146#4282#0" expanded="false" />
-            <element signature="e#4354#4711#0" expanded="false" />
-            <element signature="e#9227#9288#0" expanded="false" />
-            <element signature="e#10263#10568#0" expanded="false" />
-            <element signature="e#11109#11429#0" expanded="false" />
-            <element signature="e#11483#12034#0" expanded="false" />
-            <element signature="e#12495#12613#0" expanded="false" />
-            <element signature="e#14028#14874#0" expanded="false" />
-            <element signature="e#17320#17521#0" expanded="false" />
-            <element signature="e#17666#19140#0" expanded="false" />
-            <element signature="e#41336#42328#0" expanded="false" />
-            <element signature="e#42927#44932#0" expanded="false" />
-            <element signature="e#44973#47253#0" expanded="false" />
-            <element signature="e#47299#48147#0" expanded="false" />
-            <element signature="e#54923#56879#0" expanded="false" />
-            <element signature="e#56988#60266#0" expanded="false" />
-            <element signature="e#61841#62794#0" expanded="false" />
-            <element signature="e#62839#63659#0" expanded="false" />
-            <element signature="e#63686#68925#0" expanded="false" />
+            <element signature="n#!!doc" />
+            <element signature="e#1268#1277#0" />
+            <element signature="e#1338#1377#0" />
+            <element signature="e#2441#2574#0" />
+            <element signature="e#2500#2574#0" />
+            <element signature="e#2604#6942#0" />
+            <element signature="e#2746#2867#0" />
+            <element signature="e#2993#3183#0" />
+            <element signature="e#2993#3118#1" />
+            <element signature="e#3289#3592#0" />
+            <element signature="e#3649#3828#0" />
+            <element signature="e#3888#4096#0" />
+            <element signature="e#3888#4013#1" />
+            <element signature="e#4146#4282#0" />
+            <element signature="e#4354#4711#0" />
+            <element signature="e#4354#4563#1" />
+            <element signature="e#4763#5307#0" />
+            <element signature="e#4763#4933#1" />
+            <element signature="e#5359#5848#0" />
+            <element signature="e#5359#5493#1" />
+            <element signature="e#5892#5967#0" />
+            <element signature="e#6011#6082#0" />
+            <element signature="e#6133#6942#0" />
+            <element signature="e#6133#6507#1" />
+            <element signature="e#6516#6581#0" />
+            <element signature="e#6968#9180#0" />
+            <element signature="e#7053#7969#0" />
+            <element signature="e#7053#7448#1" />
+            <element signature="e#8005#8086#0" />
+            <element signature="e#8119#8204#0" />
+            <element signature="e#8236#8329#0" />
+            <element signature="e#8362#8400#0" />
+            <element signature="e#8431#8469#0" />
+            <element signature="e#8502#8575#0" />
+            <element signature="e#8611#8649#0" />
+            <element signature="e#8686#9180#0" />
+            <element signature="e#9227#9288#0" />
+            <element signature="e#9351#9553#0" />
+            <element signature="e#9494#9539#0" />
+            <element signature="e#9555#9589#0" />
+            <element signature="e#9819#9926#0" />
+            <element signature="e#9928#9994#0" />
+            <element signature="e#10166#10198#0" />
+            <element signature="e#10263#10592#0" />
+            <element signature="e#10622#11071#0" />
+            <element signature="e#10693#10758#0" />
+            <element signature="e#11133#11453#0" />
+            <element signature="e#11227#11305#0" />
+            <element signature="e#11507#12057#0" />
+            <element signature="e#11683#11755#0" />
+            <element signature="e#11774#12057#0" />
+            <element signature="e#11931#12038#0" />
+            <element signature="e#12100#12403#0" />
+            <element signature="e#12140#12403#0" />
+            <element signature="e#12519#12637#0" />
+            <element signature="e#12713#12833#0" />
+            <element signature="e#12835#12851#0" />
+            <element signature="e#12981#13268#0" />
+            <element signature="e#13128#13210#0" />
+            <element signature="e#13741#13933#0" />
+            <element signature="e#14052#14898#0" />
+            <element signature="e#14052#14413#1" />
+            <element signature="e#14418#14481#0" />
+            <element signature="e#14696#14737#0" />
+            <element signature="e#14969#15283#0" />
+            <element signature="e#14969#15043#0" />
+            <element signature="e#15374#16378#0" />
+            <element signature="e#15374#15669#1" />
+            <element signature="e#15760#15937#0" />
+            <element signature="e#16098#16134#0" />
+            <element signature="e#16456#17317#0" />
+            <element signature="e#17344#17545#0" />
+            <element signature="e#17573#17627#0" />
+            <element signature="e#17690#19164#0" />
+            <element signature="e#17690#18038#1" />
+            <element signature="e#18178#18203#0" />
+            <element signature="e#18626#18698#0" />
+            <element signature="e#18793#19020#0" />
+            <element signature="e#19039#19088#0" />
+            <element signature="e#19201#19439#0" />
+            <element signature="e#19265#19377#0" />
+            <element signature="e#19396#19439#0" />
+            <element signature="e#19469#22156#0" />
+            <element signature="e#19521#20088#0" />
+            <element signature="e#20125#20188#0" />
+            <element signature="e#20228#20428#0" />
+            <element signature="e#20260#20428#0" />
+            <element signature="e#20497#21168#0" />
+            <element signature="e#21205#21805#0" />
+            <element signature="e#21433#21575#0" />
+            <element signature="e#21602#21691#0" />
+            <element signature="e#21844#22007#0" />
+            <element signature="e#22049#22126#0" />
+            <element signature="e#22179#41295#0" />
+            <element signature="e#22254#24636#0" />
+            <element signature="e#24701#24826#0" />
+            <element signature="e#24876#25674#0" />
+            <element signature="e#25716#26629#0" />
+            <element signature="e#25748#26629#0" />
+            <element signature="e#25748#25783#0" />
+            <element signature="e#26702#28518#0" />
+            <element signature="e#26702#26758#0" />
+            <element signature="e#27249#27428#0" />
+            <element signature="e#27518#27590#0" />
+            <element signature="e#27624#27796#0" />
+            <element signature="e#27859#28135#0" />
+            <element signature="e#28583#34038#0" />
+            <element signature="e#29165#29278#0" />
+            <element signature="e#29210#29278#0" />
+            <element signature="e#29512#33710#0" />
+            <element signature="e#31696#33665#0" />
+            <element signature="e#31824#33585#0" />
+            <element signature="e#32144#32476#0" />
+            <element signature="e#32940#33443#0" />
+            <element signature="e#32989#33070#0" />
+            <element signature="e#34104#35359#0" />
+            <element signature="e#34461#34633#0" />
+            <element signature="e#34739#34904#0" />
+            <element signature="e#34967#35117#0" />
+            <element signature="e#35417#36737#0" />
+            <element signature="e#36243#36409#0" />
+            <element signature="e#36807#37916#0" />
+            <element signature="e#37155#37329#0" />
+            <element signature="e#37430#37597#0" />
+            <element signature="e#37654#37770#0" />
+            <element signature="e#37978#39301#0" />
+            <element signature="e#38801#38979#0" />
+            <element signature="e#39390#39773#0" />
+            <element signature="e#39850#40752#0" />
+            <element signature="e#40213#40402#0" />
+            <element signature="e#40833#41295#0" />
+            <element signature="e#41360#42352#0" />
+            <element signature="e#41360#41430#0" />
+            <element signature="e#41637#42130#0" />
+            <element signature="e#42397#42913#0" />
+            <element signature="e#42499#42595#0" />
+            <element signature="e#42684#42887#0" />
+            <element signature="e#42742#42887#0" />
+            <element signature="e#42951#44956#0" />
+            <element signature="e#43140#43189#0" />
+            <element signature="e#44078#44279#0" />
+            <element signature="e#44125#44279#0" />
+            <element signature="e#44320#44360#0" />
+            <element signature="e#44850#44927#0" />
+            <element signature="e#44997#47277#0" />
+            <element signature="e#45639#45655#0" />
+            <element signature="e#46901#47031#0" />
+            <element signature="e#47175#47262#0" />
+            <element signature="e#47323#48171#0" />
+            <element signature="e#47954#48037#0" />
+            <element signature="e#48072#48156#0" />
+            <element signature="e#48203#49060#0" />
+            <element signature="e#48212#48365#0" />
+            <element signature="e#48405#49060#0" />
+            <element signature="e#48489#49060#0" />
+            <element signature="e#48887#49032#0" />
+            <element signature="e#48903#49032#0" />
+            <element signature="e#49109#49546#0" />
+            <element signature="e#49378#49531#0" />
+            <element signature="e#49602#50087#0" />
+            <element signature="e#49701#49803#0" />
+            <element signature="e#50158#53130#0" />
+            <element signature="e#50578#52716#0" />
+            <element signature="e#50701#52716#0" />
+            <element signature="e#52879#53086#0" />
+            <element signature="e#53212#53675#0" />
+            <element signature="e#53323#53660#0" />
+            <element signature="e#53350#53660#0" />
+            <element signature="e#53389#53660#0" />
+            <element signature="e#53757#54799#0" />
+            <element signature="e#54046#54784#0" />
+            <element signature="e#54102#54784#0" />
+            <element signature="e#54943#56899#0" />
+            <element signature="e#55230#56872#0" />
+            <element signature="e#55476#55929#0" />
+            <element signature="e#55577#55684#0" />
+            <element signature="e#56015#56128#0" />
+            <element signature="e#56048#56128#0" />
+            <element signature="e#56224#56872#0" />
+            <element signature="e#57008#60286#0" />
+            <element signature="e#57296#60257#0" />
+            <element signature="e#57535#57820#0" />
+            <element signature="e#57637#57754#0" />
+            <element signature="e#58079#58399#0" />
+            <element signature="e#58490#58606#0" />
+            <element signature="e#58524#58606#0" />
+            <element signature="e#58615#58650#0" />
+            <element signature="e#58960#59168#0" />
+            <element signature="e#59265#60257#0" />
+            <element signature="e#59503#59629#0" />
+            <element signature="e#60338#61816#0" />
+            <element signature="e#60338#60387#0" />
+            <element signature="e#60561#60689#0" />
+            <element signature="e#60870#61816#0" />
+            <element signature="e#61368#61816#0" />
+            <element signature="e#61861#62814#0" />
+            <element signature="e#61919#62236#0" />
+            <element signature="e#62859#63679#0" />
+            <element signature="e#62922#63581#0" />
+            <element signature="e#63826#63949#0" />
+            <element signature="e#63968#64050#0" />
+            <element signature="e#64093#64142#0" />
+            <element signature="e#64223#64539#0" />
+            <element signature="e#64355#64539#0" />
+            <element signature="e#64652#64824#0" />
+            <element signature="e#65240#67950#0" />
+            <element signature="e#68114#68268#0" />
+            <element signature="e#68309#68349#0" />
+            <element signature="e#68839#68916#0" />
+            <element signature="e#68995#70182#0" />
+            <element signature="e#69008#69985#0" />
+            <element signature="e#69365#69427#0" />
+            <element signature="e#69815#69878#0" />
+            <element signature="e#70094#70159#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+          <folding>
+            <element signature="n#!!doc" />
+            <element signature="e#1488#1553#0" />
+            <element signature="e#3010#3148#0" />
+            <element signature="e#3010#3046#0" />
+            <element signature="e#3248#3503#0" />
+            <element signature="e#3248#3324#0" />
+            <element signature="e#3374#3503#0" />
+            <element signature="e#3509#3536#0" />
+            <element signature="e#3942#4456#0" />
+            <element signature="e#4074#4160#0" />
+            <element signature="e#4208#4328#0" />
+            <element signature="e#5842#6201#0" />
+            <element signature="e#5882#6201#0" />
+            <element signature="e#6236#6632#0" />
+            <element signature="e#6276#6632#0" />
+            <element signature="e#6666#6875#0" />
+            <element signature="e#6902#7291#0" />
+            <element signature="e#7008#7258#0" />
+            <element signature="e#7373#8539#0" />
+            <element signature="e#7544#8343#0" />
+            <element signature="e#8081#8343#0" />
+            <element signature="e#8385#8492#0" />
+            <element signature="e#9737#9801#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/sunpos/__main__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/sunpos/csunpos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="62" column="108" selection-start-line="62" selection-start-column="108" selection-end-line="62" selection-end-column="108" />
+          <folding>
+            <element signature="e#554#1170#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/scipy/optimize/_minimize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="71" column="15" selection-start-line="71" selection-start-column="15" selection-end-line="71" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/process_new.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="164" column="14" selection-start-line="164" selection-start-column="14" selection-end-line="164" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simulate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="167" column="13" selection-start-line="167" selection-start-column="13" selection-end-line="167" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/polarization.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7198">
-          <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/geomag/process_new.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="115" column="31" lean-forward="true" selection-start-line="115" selection-start-column="31" selection-end-line="115" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#804#937#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="368">
+          <caret line="264" column="36" lean-forward="true" selection-start-line="264" selection-start-column="36" selection-end-line="264" selection-end-column="36" />
         </state>
       </provider>
     </entry>

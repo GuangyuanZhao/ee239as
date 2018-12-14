@@ -3,7 +3,7 @@ from scipy import misc
 from scipy.optimize import minimize
 from PIL import Image
 import pandas as pd
-from estimate_position import poincare
+from estimate_position import poincare, az_zen_dist
 # from libtiff import TIFF
 import matplotlib.pyplot as plt
 from PIL import Image
@@ -127,7 +127,7 @@ def fit_sun_to_aop(aop, head, pitch, sun_head_guess=None, ridx=1.33, verbose=Fal
     minfun = lambda x, *args: sun_pos_error(x[0], x[1], *args)
     # Originally x0=(sun_head_guess,pi/4)
     # TODO: verify modification
-    fit = minimize(minfun, x0=np.asarray([sun_head_guess, pi/4]), args=(aop, head, pitch, ridx),
+    fit = minimize(minfun, x0=np.asarray([pi, pi/2]),method='L-BFGS-B', args=(aop, head, pitch, ridx),
                    bounds=[(-2 * pi, 2 * pi), (.01, pi / 2)], options={'gtol': 1e-6})
     sun_hz = fit.x
     _p(v, 0, 'DONE', flush=True)
@@ -144,9 +144,12 @@ if __name__ == '__main__':
         # print(data)
         # i0, i45, i90, i135 =data[0,0],data[1,0],data[2,0],data[3,0]
         # print (i0)
-        # i0, i45, i90, i135 =[76.764267476364640,82.655174880194550,90.274839347503700,80.310342403149830] #indirect
-        i0, i45, i90, i135 =[69.07496194999997,73.06496132000001,81.77103290000001,63.80920486] #weixi
+        # i0, i45, i90, i135 =[90.151519594495530,80.054397761443370,75.302827106820910,81.887167714389920] #indirect
+        # i0, i45, i90, i135 =[1.008080338655501e+02,93.126594518204470,98.725996204933580,94.917654251316780]
+        # i0, i45, i90, i135 =[93.126594518204470, 86.638399222294230, 94.917654251316780, 1.008080338655501e+02] #direct
+        # i0, i45, i90, i135 =[1.008080338655501e+02,93.126594518204470,98.725996204933580,94.917654251316780] #direct2
 
+        i0, i45, i90, i135 =[69.07496194999997,73.06496132000001,81.77103290000001,63.80920486] #weixi
     else:
         i0, i45, i90, i135 = import_data(b, 'tiff')
     s = compute_stokes(i0, i45, i90, i135)
@@ -155,14 +158,17 @@ if __name__ == '__main__':
     (s0, p, a) = poincare(s)  # Caculating the intensity, degree of pol, angle of pol
     # sun_az, sun_zen, cam_head, cam_elev = math.radians(183), np.arccos(0.5924), math.radians(166), 0
     # sun_az, sun_zen, cam_head, cam_elev = math.radians(204.9), np.arccos(0.5182), math.radians(206), 0 # indirect illumination
-    sun_az, sun_zen, cam_head, cam_elev = math.radians(201.04), np.arccos(0.5362), math.radians(183), 0 # indirect illumination
-
+    sun_az, sun_zen, cam_head, cam_elev = math.radians(201.04), np.arccos(0.5362), math.radians(200), math.radians(0) # indirect illumination
     stokes_theoretical = oceanstokes(sun_az, sun_zen, cam_head, cam_elev)
     print('s_theoretical=', np.squeeze(stokes_theoretical))
     aop_theoretical = Stokes.aop(np.squeeze(stokes_theoretical), axis=0)
     aop = Stokes.aop(s, axis=0)
+    # aop=-0.5
     print('aop=', aop)
     print('aop_theoretical=', aop_theoretical)
     fit = fit_sun_to_aop(aop, cam_head, pitch=cam_elev, ridx=1.33, verbose=False)
     print(fit)
-    print(math.degrees(fit[0]),math.degrees(fit[1]))
+    print('Calculated',math.degrees(fit[0]),math.degrees(fit[1]))
+    print('Theoretical',math.degrees(sun_az),math.degrees(sun_zen))
+    # dis=az_zen_dist(np.deg2rad([214,89]),np.deg2rad([201,56]))
+    # print(dis)
